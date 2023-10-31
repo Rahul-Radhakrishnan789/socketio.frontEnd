@@ -56,6 +56,7 @@ function App() {
  
       return () => { 
         socket.off("recieve_message");
+        console.log('hii')
       };
     }, []);
     
